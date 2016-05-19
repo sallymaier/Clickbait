@@ -1,0 +1,333 @@
+html {
+    font-family: "Lato", sans-serif;
+  }
+
+body { 
+	font-family: "Lato", sans-serif;	
+}
+
+h1 { 
+	font-size:2.2em; 
+	padding:0 0 .5em 0; 
+}
+
+h2 { 
+	font-size:1.5em; 
+}
+
+.textblock {
+    width: 600px;
+}
+
+a {
+    color: blue;
+}
+	
+.header { 
+}
+
+
+#MainMenu{
+    text-align: left;
+    font-size: .6em;
+    line-height: 1.5em;
+    font-family: "Lato";
+    font-weight: 400;
+    position: absolute;
+    z-index: 10;
+}
+
+#MainMenu a{
+    text-decoration: none;
+    display: inline;
+    
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+.sidebar {
+    width: 200px;
+    height: 85%;
+    position: fixed;
+    overflow: scroll;
+    list-style: none;
+    margin-top: 50px;
+    font-size: .9em;
+    line-height: 1.6em;
+    color: #3100B2;
+}
+
+.sidebar a a:visited a:hover a:active {
+    color: blue;
+}
+
+.info {
+    font-size: 1.2em;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    margin-bottom: 1em;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.infoheader {
+    font-size: 1em;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.principlesinfo {
+    font-size: 1em;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    margin-bottom: 1em;
+    line-height: 1.2em;
+}
+
+.navlevel1{
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: .17em;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+}
+
+.navlevel1 .info a{
+    text-decoration: none;
+    line-height: 2.5em;
+}
+
+.navlevel2{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+.textwhitebg {
+    background-color: #ffffff;
+    padding: .25em; 
+}
+
+a:hover, a:active, a:focus {
+    color: #2800D7;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+	
+.col { 
+	background: #fff; 
+	padding:1em 0; 
+	text-align:center;
+}
+
+#clickbaitarticle {
+    margin-left: 200px;
+
+}
+
+
+.grid {
+    width: 100%;
+    position: relative;
+
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.grid-item {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.30s ease-out;
+    -moz-transition: all 0.30s ease-out;
+    -o-transition: all 0.30s ease-out;
+    transition: all 0.30s ease-out;  
+    width: 200px; 
+    padding: 0;
+    margin: 0;
+}
+
+.stamped-second {
+    width:600px;
+}
+
+.grid-item li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: blue;
+    opacity: 0;
+}
+
+.grid-item:hover  .overlay{
+    height:100%;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;  
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+.title{
+    font-family: "Lato", sans-serif;
+    font-size: .8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    letter-spacing: .15em;
+}
+
+.itemprinciples {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+}
+
+.grid-item:hover .itemprinciples{
+    opacity: 1;
+}
+
+.itemprincipleslist li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Lato", sans-serif;
+    font-weight: 300; 
+    font-size: 1em;
+    display: block;
+}
+
+.highlight {
+    background-color: blue;
+}
+
+.itemprincipleslist li a {
+    line-height: 1.5em;
+    color: white;
+}
+
+.itemprincipleslist li a:hover {
+    color: blue;
+}
+
+.infobox {
+    width: 66%;
+    position: fixed;
+    top: 50px;
+    left: 300px;
+    background-color: lightcyan;
+    color: blue;
+    -webkit-user-drag: element;
+    padding: 1em;
+    padding-bottom: 3em;
+    z-index: 10;
+    box-shadow: 10px 10px blue;
+    display: none;
+    height: 80%;
+    overflow-y: scroll;
+    
+
+}
+
+.textcontainer {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textcontainer p {
+    font-size: 1.2em;
+}
+
+.infoimg {
+    text-align: center;
+    position: relative;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+
+}
+
+.infoimg img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+h6 {
+    text-align: center;
+    font-size: .8em;
+    margin-bottom: 2em;
+}
+
+.pagetitle {
+    font-weight: 500;
+    font-size: 1.5em;
+    padding: .2em;
+    position: fixed;
+    top: 50px;
+    left:250px;
+    z-index: 10;
+    background-color: blue;
+    color: lightcyan;
+    -webkit-user-drag: element;
+    display: none;
+
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5em;
+    background-color: blue;
+    color: lightcyan;
+    display: inline;
+    padding: .2em;
+    line-height: 2.5em;
+    font-style: italic;
+
+}
+
+[draggable=true] {
+    cursor: move;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+        .grid-item {
+            width: 45%; 
+        }
+    }
+
